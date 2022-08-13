@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedback page</title>
+  </head>
+  <body>
+    <h2>Feedback Form</h2>
+    <form action="/index.html">
+      <label for="username">Username: </label>
+      <input type="text" required placeholder="Username" id="username" /> <br />
+      <br />
+      <label for="email">Email: </label>
+      <input type="email" required placeholder="Enter Your Email" /><br /><br />
+      <label for="phonenumber">Contact No:</label>
+      <input
+        type="text"
+        placeholder="+358413184044"
+        id="phonenumber"
+      /><br /><br />
+      <label for="date_of_birth">Date of Birth: </label>
+      <input type="date" placeholder="26.06.1993" /><br /><br />
+      <p>Choose Marital Status</p>
+      <input type="radio" name="marital_status" id="married" />
+      <label for="married">Married</label>
+      <input type="radio" name="marital_status" id="single" />
+      <label for="single">Single</label>
+      <p>Choose Gender</p>
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" />
+      <label for="other">Other</label>
+      <br /><br />
+      <!--Favourite color-->
+      <label for="colors">Choose Favorite color: </label>
+      <select name="colors" id="colors">
+        <option value="green">Green</option>
+        <option value="red">Red</option>
+        <option value="green">Yellow</option>
+      </select>
+      <br /><br />
+      <label for="file">Upload profile image: </label>
+      <input type="file" />
+      <br /><br />
+      <input type="checkbox" checked name="newsletter" id="newsletter" />
+      <label for="newsletter"
+        >Would you like to see the newsletter from us?</label
+      >
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
