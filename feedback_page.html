@@ -13,18 +13,35 @@
     <h2>Feedback Form</h2>
     <form action="/index.html">
       <label for="username">Username: </label>
-      <input type="text" required placeholder="Username" id="username" /> <br />
+      <input
+        type="text"
+        name="username"
+        required
+        placeholder="Username"
+        id="username"
+      />
+      <br />
       <br />
       <label for="email">Email: </label>
-      <input type="email" required placeholder="Enter Your Email" /><br /><br />
+      <input
+        type="email"
+        name="email"
+        required
+        placeholder="Enter Your Email"
+      /><br /><br />
       <label for="phonenumber">Contact No:</label>
       <input
         type="text"
         placeholder="+358413184044"
         id="phonenumber"
+        name="phonenumber"
       /><br /><br />
       <label for="date_of_birth">Date of Birth: </label>
-      <input type="date" placeholder="26.06.1993" /><br /><br />
+      <input
+        type="date"
+        placeholder="26.06.1993"
+        name="date_of_birth"
+      /><br /><br />
       <p>Choose Marital Status</p>
       <input type="radio" name="marital_status" id="married" />
       <label for="married">Married</label>
